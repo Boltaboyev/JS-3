@@ -1,32 +1,35 @@
 // 1 -----------------------------------------------------------------1
 
-let str = "hello world"
-let res = ""
-let word = ""
+// let str = "hello world"
+// let res = ""
+// let word = ""
 
-for (let i = str.length - 1; i >= 0; i--) {
-    if (str[i] === " ") {
-        res += word + " "
-        word = ""
-    } else {
-        word = str[i] + word
-    }
-}
-res += word
-
-console.log(res)
-
-// 2 ------------------------------------------------------------------2
-// let str = "level"
-// let res = 'true'
-
-// for (let i = 0; i < str.length / 2; i++) {
-//     if (str[i] !== str[str.length - 1 - i]) {
-//         res = 'false'
+// for (let i = str.length - 1; i >= 0; i--) {
+//     if (str[i] === " ") {
+//         res += word + " "
+//         word = ""
+//     } else {
+//         word = str[i] + word
 //     }
 // }
+// res += word
 
 // console.log(res)
+
+// 2 ------------------------------------------------------------------2
+// let str  = 'level'
+// let res = ''
+
+// for (let i = str.length - 1; i >= 0; i--) {  
+//     res += str[i]    
+// }
+
+// if (res === str) {
+//     console.log(true);
+// }else {
+//     console.log(false);    
+// }
+
 
 
 // 3 -----------------------------------------------------------------3
@@ -40,3 +43,6 @@ console.log(res)
 // }
 
 // console.log(res);
+
+
+// 4 -----------------------------------------------------------------4
