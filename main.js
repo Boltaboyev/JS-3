@@ -1,20 +1,11 @@
 // 1 -----------------------------------------------------------------1
 
-// let str = "hello world"
-// let res = ""
-// let word = ""
+// let str = 'hello world'
+// let res = ''
 
-// for (let i = str.length - 1; i >= 0; i--) {
-//     if (str[i] === " ") {
-//         res += word + " "
-//         word = ""
-//     } else {
-//         word = str[i] + word
-//     }
-// }
-// res += word
+// res = str.split(" ").reverse().join(" ")
+// console.log(res);
 
-// console.log(res)
 
 // 2 ------------------------------------------------------------------2
 // let str  = 'level'
